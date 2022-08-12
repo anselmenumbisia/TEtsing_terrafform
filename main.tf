@@ -17,3 +17,9 @@ resource "aws_instance" "example" {
   ami           = "ami-0ed9277fb7eb570c9"
   instance_type = "t2.micro"
 }
+
+
+resource "aws_s3_bucket" "name" {
+    bucket = "testingtestingtesting"
+}
+
